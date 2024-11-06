@@ -14,7 +14,7 @@ let config = {
     width: 640,
     height: 640,
     zoom: 2,
-    scene: [ ArrayMap ]
+    scene: [ ArrayMapContext, ArrayMapWFC ]
 }
 
 const game = new Phaser.Game(config)
